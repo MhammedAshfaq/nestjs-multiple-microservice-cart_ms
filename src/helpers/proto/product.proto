@@ -1,0 +1,28 @@
+syntax = 'proto3';
+package products;
+
+service ProductService {
+    rpc createProduct(CreateProductReq) returns (CreateProductReq);
+    rpc searchProductWithId(SearchProduct) returns (Product);
+}
+
+message CreateProductReq {
+    string name = 1;
+    string description =2;
+    int32 price =3;
+    string photo = 4;
+}
+
+message SearchProduct {
+    string id=1;
+}
+
+message Product{
+    string id = 1;
+    string name = 2;
+    string description = 3;
+    int32 price =4;
+    string photo = 5;
+    string createdDate = 6;
+    string updatedDate = 7;
+}
