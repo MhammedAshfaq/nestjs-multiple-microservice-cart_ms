@@ -97,3 +97,17 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+## ---------------------- env -----------------
+
+PRODUCTS_URL=localhost:50055
+CARTS_URL=localhost:50056
+
+DB_PASSWORD=ashamysql@7979
+DB_HOST=localhost
+DB_PORT=3306
+DB_USERNAME=root
+DB_DATABASE=flexcomplycartms
+
+MONGO_PASSWORD=24QNNZUghgzoPsEU
+MONGO_USERNAME=ashfaqmohammedcv
